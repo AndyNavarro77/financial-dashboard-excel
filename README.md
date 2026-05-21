@@ -1,52 +1,95 @@
-📊 Dashboard de Control Financiero | BioNexa Pharmaceuticals.
+# 📊 Financial Dashboard — BioNexa Pharmaceuticals
 
-Este proyecto presenta un panel financiero interactivo diseñado en Microsoft Excel, orientado a optimizar la planificación y el control financiero en la empresa BioNexa Pharmaceuticals. El dashboard permite visualizar de forma clara y dinámica los principales indicadores financieros para una toma de decisiones más ágil y precisa.
+> **Interactive financial control dashboard built in Excel — monitoring $3.3B in net revenue, $946M in operating expenses, and 12-month P&L performance for executive decision-making.**
 
+![Excel](https://img.shields.io/badge/Microsoft_Excel-Advanced-217346?logo=microsoftexcel)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-🧠 Descripción del Análisis
+---
 
-A través del uso de tablas dinámicas, gráficos personalizados y segmentaciones, el panel permite:
+## 🧠 The Business Problem
 
-- Visualizar ingresos netos y ganancias brutas mes a mes.
-- Evaluar los gastos operativos y su evolución.
-- Analizar el comportamiento de deudas y compromisos financieros.
-- Observar la distribución de costos por categoría.
-- Identificar patrones clave en los detalles del gasto.
+BioNexa Pharmaceuticals needed a centralized financial monitoring tool to track monthly revenue, operating costs, capital expenditures, and debt obligations across a full fiscal year — enabling finance and management teams to detect budget deviations and make faster, data-driven decisions.
 
+---
 
-🎯 Objetivo
+## ✅ The Solution
 
-Brindar a los equipos financieros y gerenciales una herramienta que facilite:
+A fully interactive Excel dashboard with dynamic filters, pivot tables, and custom KPI cards — providing a real-time view of the company's financial health across all key dimensions.
 
-- La planificación financiera mensual/anual.
-- El control eficiente de gastos y deudas.
-- La detección de desviaciones presupuestarias.
-- La toma de decisiones basada en indicadores clave.
+---
 
+## 📊 Key Metrics Monitored
 
-🛠️ Herramientas Utilizadas
+| KPI | Value |
+|---|---|
+| Net Revenue | $3,296,176,254 |
+| Total Expenses | $946,320,028 |
+| Gross Profit (peak — May) | $428,100,000 |
+| Outstanding Debt | $189,405,039 |
+| Corporate Tax | $123,044,198 |
+| Capital Expenditure | $342,301,727 |
+| Operating Expenditure | $434,348,043 |
+| Revenue share of total | 78% |
 
-Microsoft Excel como plataforma de visualización.
+---
 
-- Tablas dinámicas y segmentaciones para filtrado interactivo.
-- Gráficos financieros para el análisis visual de KPIs.
-- Cálculos personalizados con funciones como SUMIFS, IF, AVERAGE, y más.
+## 🔍 Expense Breakdown
 
+| Category | Amount |
+|---|---|
+| Medical Salaries | $65,233,000 |
+| Advertising | $27,488,281 |
+| Medical Supplies | $23,745,422 |
+| Equipment | $6,238,943 |
+| **Total Detail** | **$122,705,646** |
 
-🚀 Cómo Usarlo
+---
 
-Seleccioná el mes o rango de fechas desde los filtros.
+## 🎯 Dashboard Features
 
-- Explorá los ingresos, gastos y deudas por categoría.
-- Evaluá la evolución financiera de forma mensual.
-- Utilizá los gráficos para obtener una vista rápida de la situación financiera.
-- Aplicá insights del análisis para optimizar decisiones de inversión y control de costos.
+- **P&L Overview** — net revenue, gross profit, expenses and debt in a single executive view
+- **Monthly trend** — gross profit and revenue vs expenses month-by-month (Jan–Dec)
+- **Cost distribution** — 56% capital vs operating expense breakdown
+- **Expense detail** — itemized cost analysis by category
+- **Dynamic filters** — slice by month or date range for ad-hoc analysis
+- **Auto-updated KPI cards** — last updated January 19, 2024
 
+---
 
-📬 Contacto
+## 🛠️ Tech Stack
 
-**Andrés Navarro**  
+| Tool | Usage |
+|---|---|
+| Microsoft Excel | Dashboard design and data modeling |
+| Pivot Tables | Dynamic aggregation and filtering |
+| Advanced Formulas | SUMIFS · IF · AVERAGE · custom calculations |
+| Charts & Slicers | Interactive financial visualizations |
 
-📧 andresnavarroalvarez15@gmail.com
-🌐 [Portafolio Web](https://andres-navarro-portafolio.netlify.app)  
-🔗 [LinkedIn](https://www.linkedin.com/in/andr%C3%A9s-navarro77/)
+---
+
+## 📸 Dashboard Preview
+
+![BioNexa Dashboard](CapturaPantallaBioNexa.png)
+
+---
+
+## 📁 Repository Structure
+
+```
+financial-dashboard-excel/
+├── BioNexaPharmaceuticals_Report.xlsx   # Interactive Excel dashboard
+├── CapturaPantallaBioNexa.png           # Dashboard preview
+├── README.md                            # English documentation
+└── README_ES.md                         # Spanish documentation
+```
+
+---
+
+## 👤 Author
+
+**Andrés Navarro** — Data Analyst · BI · Excel Advanced
+
+[![GitHub](https://img.shields.io/badge/GitHub-AndyNavarro77-black?logo=github)](https://github.com/AndyNavarro77)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/andrés-navarro77/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange?logo=netlify)](https://andres-navarro-portafolio.netlify.app)
